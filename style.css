@@ -130,18 +130,19 @@ input[type="search"]{
     margin-left: 310px;
 }
 .blank_text{
-    height: 400px;
+    
     width: 400px;
     margin-left: 10px;
+    padding-bottom: 100px;
 }
 .blank_text h1{
-    font-size: 65px;
+    font-size: 60px;
     padding-top: 25px;
     margin-left: 45px;
 }
 .blank_text a{
     color: #990505;
-    padding-left: 300px;
+    padding-left: 200px;
     text-decoration: none;
 }
 .bacground_section_color{
@@ -161,7 +162,7 @@ input[type="search"]{
 .about_us{
     padding-top: 100px;
     margin-left: 100px;
-    width: ;
+   display: flex;
     
 }
 .title_us a{
@@ -173,6 +174,9 @@ input[type="search"]{
 }
 .title_us p{
     margin-top: 50px;
+}
+.title_us{
+    width: 500px;
 }
 .servis_img1{
     height: 100px;
@@ -192,6 +196,7 @@ input[type="search"]{
 }
 #servis_name4{
     padding-top: 35px;
+    margin-bottom: 70px;
 }
 .servis_name1{
     display: flex;
@@ -204,15 +209,15 @@ input[type="search"]{
 
 .our_services{
     margin-left: 100px;
-   
+  
 }
 .our_services a{
     text-decoration: none;
     color: #990505;
+    padding-left: 290px;
     font-size: 20px;
-    padding-left: 100px;
-    
 }
+
 .clients{
     padding-left: 100px;
    width: 500px;
