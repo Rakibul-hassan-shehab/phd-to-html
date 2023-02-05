@@ -1,0 +1,219 @@
+*{
+    
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(233, 62, 10);
+}
+.main_navbar{
+    display: flex;
+}
+.nav_item ul{
+    display: flex;
+}
+.nav_item ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+.nav_item ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.sign{
+    border-right: 1px solid white;
+    padding-left: 250px;
+}
+.login{
+    border-right: 1px solid white;
+}
+.feeds{
+    border-right: 1px solid white;
+}
+.search{
+    margin-top: 12px;
+    padding-left: 300px;
+}
+input[type="search"]{
+    height: 30px;
+    border: none;
+    border-radius: 1em;
+    width: 250px;
+}
+.fa-magnifying-glass{
+    color: rgb(187, 176, 176);
+    font-size: 20px; 
+}
+.text h1{
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+.text h1 span{
+    font-size: 50px;
+}
+.text p{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    margin-left: 320px;
+    padding-top: 50px;
+}
+.main_text{
+    display: flex;
+}
+.logo{
+    
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.logo > i{
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.items ul{
+    display: flex;
+    margin-left: 275px;
+    margin-top: 50px;
+    
+    
+}
+.items ul li{
+    list-style-type: none;
+    background-color: black;
+    justify-content: center;
+    padding: 15px;
+    gap: 70px;
+   
+    
+    
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+   
+}
+.items ul li a:hover{
+    color: red;
+}
+.slider_image img{
+    height: 600px;
+    width: 1015px;
+    margin-left: 315px;
+    outline: 5px solid #d6cece;
+}
+.blank_img{
+    margin-top: 50px;
+    height: 420px;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+.blank_img h1{
+    text-align: center;
+    padding-top: 200px;
+}
+.blank{
+    display: flex;
+    margin-left: 310px;
+}
+.blank_text{
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+.blank_text h1{
+    font-size: 65px;
+    padding-top: 25px;
+    margin-left: 45px;
+}
+.blank_text a{
+    color: #990505;
+    padding-left: 300px;
+    text-decoration: none;
+}
+.bacground_section_color{
+    background-color: rgb(194, 198, 202);
+    margin-top: 100px;
+}
+.tile_image{
+    height: 200px;
+    width: 350px;
+    background-color: black;
+}
+.tile_image h1{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+.about_us{
+    padding-top: 100px;
+    margin-left: 100px;
+    width: ;
+    
+}
+.title_us a{
+    text-decoration: none;
+    color: #aa0505;
+    font-size: 20px;
+    padding-left: 150px;
+    width: 25%;
+}
+.title_us p{
+    margin-top: 50px;
+}
+.servis_img1{
+    height: 100px;
+    width: 260px;
+    background-color: black;
+}
+.servis_img1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#servis_name2{
+    padding-top: 30px;
+}
+#servis_name3{
+    padding-top: 35px;
+}
+#servis_name4{
+    padding-top: 35px;
+}
+.servis_name1{
+    display: flex;
+    padding-top: 10px;
+   
+}
+.servis_text1{
+    padding-left: 10px;
+}
+
+.our_services{
+    margin-left: 100px;
+   
+}
+.our_services a{
+    text-decoration: none;
+    color: #990505;
+    font-size: 20px;
+    padding-left: 100px;
+    
+}
+.clients{
+    padding-left: 100px;
+   width: 500px;
+}
