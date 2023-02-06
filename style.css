@@ -244,3 +244,50 @@ input[type="search"]{
 #tommy2{
     padding-top: 150px;
 }
+.form{
+    display: flex;
+}
+.tweets{
+    width: 200px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.tweets span{
+    color: red;
+}
+.latest{
+   padding-bottom: 50px;
+}
+.quick_link{
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.quick_link h1{
+    padding-bottom: 50px;
+}
+.quick_link a{
+    text-decoration: none;
+    color: rgb(65, 59, 59);
+}
+.quick_link a:hover{
+    color: red;
+}
+.latest_post{
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.latest_post a{
+   text-decoration: none;
+   color: red;
+   padding-left: 200px;
+}
+.contact_us{
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.contact_us input{
+    width: 300px;
+}
