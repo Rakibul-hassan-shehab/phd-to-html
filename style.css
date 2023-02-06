@@ -289,5 +289,26 @@ input[type="search"]{
     padding-top: 50px;
 }
 .contact_us input{
-    width: 300px;
+    width: 280px;
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6cece;
+}
+input[type="text area"]{
+    height: 50px;
+}
+input[type="submit"]{
+    width: 80px;
+    color: red;
+}
+.main_footer{
+    display: flex;
+    margin-top: 50px;
+    background-color: #d6cece;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 50px;
+    height: 100px;
 }
