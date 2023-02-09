@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Poppins&family=Unbounded&display=swap');
 *{
-    
-  
+    font-family:'Cabin',sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
 }
-
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 nav{
     background-color: rgb(233, 62, 10);
 }
@@ -19,7 +23,6 @@ nav{
 .nav_item ul li{
     list-style-type: none;
     margin-left: 20px;
-    
 }
 .nav_item ul li a{
     color: white;
@@ -71,7 +74,6 @@ input[type="search"]{
     display: flex;
 }
 .logo{
-    
     margin-left: 500px;
     margin-top: 70px;
 }
@@ -92,12 +94,12 @@ input[type="search"]{
     background-color: black;
     justify-content: center;
     padding: 15px;
-    gap: 70px;
+    gap: 85px;
 }
 .items ul li a{
     text-decoration: none;
     color: white;
-    padding-left: 20px;
+    padding-left: 33px;
 }
 .items ul li a:hover{
     color: red;
@@ -124,7 +126,6 @@ input[type="search"]{
     margin-left: 310px;
 }
 .blank_text{
-    
     width: 400px;
     margin-left: 10px;
     padding-bottom: 50px;
@@ -156,7 +157,7 @@ input[type="search"]{
 .about_us{
     padding-top: 100px;
     margin-left: 100px;
-   display: flex; 
+    display: flex; 
 }
 .title_us a{
     text-decoration: none;
@@ -194,15 +195,12 @@ input[type="search"]{
 .servis_name1{
     display: flex;
     padding-top: 10px;
-   
 }
 .servis_text1{
     padding-left: 10px;
 }
-
 .our_services{
     margin-left: 100px;
-  
 }
 .our_services a{
     text-decoration: none;
@@ -210,25 +208,21 @@ input[type="search"]{
     padding-left: 290px;
     font-size: 20px;
 }
-
 .clients{
     padding-left: 100px;
     width: 500px; 
 }
 .tommy1 .ceo{
     font-size: 20px;
-   
 }
 .fa-quote-left{
     font-size: 70px;
-    
 }
 .tommy1 a{
     text-decoration: none;
     color: red;
     font-size: 20px;
     padding-left: 200px;
-
 }
 .tommy p{
     padding-top: 50px;
@@ -304,7 +298,6 @@ input[type="submit"]{
     padding-top: 50px;
     height: 100px;
 }
-
 @media only screen and (max-width: 380px){
     body{
         margin: 0;
@@ -322,7 +315,6 @@ input[type="submit"]{
         list-style-type: none;
         margin: 0;
         padding: 0;
-        
     }
     .nav_item ul li a{
         color: white;
@@ -364,7 +356,6 @@ input[type="submit"]{
         flex-wrap: wrap;
     }
     .logo{
-    
         margin-left: 10px;
         margin-top: 30px;
     }
@@ -407,7 +398,6 @@ input[type="submit"]{
     }
     .our_services{
         margin-left: 10px;
-      
     }
     .our_services a{
         text-decoration: none;
@@ -462,5 +452,4 @@ input[type="submit"]{
         background-color: #585757;
         height: 200px;
     }   
-    
 }
