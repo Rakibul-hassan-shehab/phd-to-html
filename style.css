@@ -294,7 +294,7 @@ input[type="submit"]{
     margin-top: 50px;
     background-color: #d6cece;
     justify-content: center;
-    gap: 300px;
+    gap: 20px;
     padding-top: 50px;
     height: 100px;
 }
